@@ -1,0 +1,19 @@
+
+npm init -y
+npm i fastify
+npm install typescript -D
+npx tsc --init
+npm i tsx -D
+npx tsx src/server.ts
+npm i -D prisma
+npm i @prisma/client
+npx prisma init --datasource-provider SQLITE
+npx prisma migrate dev
+npm i @fastify/cors
+npm i zod
+npm i dayjs
+
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+npx prisma generate
+npx prisma db seed
+npx prisma migrate dev --name add_single_task_model

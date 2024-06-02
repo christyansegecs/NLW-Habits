@@ -1,0 +1,20 @@
+
+npx create-expo-app mobile --template
+npx expo start
+npx expo install expo-font @expo-google-fonts/inter
+npm install
+npm i nativewind
+npm i tailwindcss --save-dev
+npx tailwindcss init
+npm install --dev tailwindcss@3.3.2
+npx expo install react-native-svg
+npm i react-native-svg-transformer --save-dev
+npm i dayjs
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npm i axios
+npm install --save clsx
+npx expo install react-native-reanimated
+npx expo start --clear
+react-native-community/datetimepicker
